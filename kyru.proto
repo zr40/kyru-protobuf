@@ -3,7 +3,7 @@ package Messages;
 // Protocol version 1
 // (only increased for backwards incompatible changes)
 
-message KademliaId {
+message KademliaId { // TODO: inline this message
 	required bytes id = 1;
 }
 
